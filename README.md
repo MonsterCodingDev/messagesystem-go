@@ -1,4 +1,4 @@
-# Golang Message Queuing System
+# Golang Message Queuing System with MonsterCodingDev
 
 ## Overview
 
