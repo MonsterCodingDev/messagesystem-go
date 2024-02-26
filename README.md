@@ -8,6 +8,8 @@ This project implements a simple message queuing system using the Go programming
 
 ## Components
 
+
+
 ### 1. API
 
 The API is responsible for handling incoming requests to store product data. It exposes endpoints to receive information such as user ID, product name, description, images, and price. The API stores this data in a database and then sends the product ID to the message queue.
