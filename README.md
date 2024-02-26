@@ -4,6 +4,8 @@
 
 This project implements a simple message queuing system using the Go programming language with either RabbitMQ or Kafka as the underlying message broker. The system comprises three main components: an API, a producer, and a consumer. The API receives product data, stores it in a database, and then passes the product ID to the message queue. The consumer, upon receiving the product ID, downloads and compresses product images, updating the product record with the local path to the compressed images.
 
+
+
 ## Components
 
 ### 1. API
