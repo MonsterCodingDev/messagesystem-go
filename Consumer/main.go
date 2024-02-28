@@ -16,6 +16,7 @@ func main() {
 	for {
 		// Receive the latest message from Kafka
 		res, err := k1.ReceiveLatestFromKafka()
+		
 		if err != nil {
 			fmt.Printf("Error receiving message from Kafka: %v\n", err)
 			// Add error handling or retries as needed
