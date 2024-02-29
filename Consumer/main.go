@@ -11,6 +11,7 @@ import (
 func main() {
 	// res, _ := k1.ReceiveLatestFromKafka()
 	// fmt.Println(res)
+	
 	// p1.ProcessProductimage(res)
 
 	for {
