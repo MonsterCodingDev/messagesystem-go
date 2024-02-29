@@ -20,6 +20,7 @@ func main() {
 		
 		if err != nil {
 			fmt.Printf("Error receiving message from Kafka: %v\n", err)
+			
 			// Add error handling or retries as needed
 			time.Sleep(time.Second * 5) // Sleep for a while before retrying
 			continue
